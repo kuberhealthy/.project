@@ -1,0 +1,72 @@
+# .project metadata for Kuberhealthy
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Set identity_type under legal (has_dco, has_cla)
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "kuberhealthy"
+name: "Kuberhealthy"
+description: "A Kubernetes operator for running synthetic checks as pods. Works great with Prometheus!"
+type: "project"
+project_lead: "integrii" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#kuberhealthy"
+    primary: true
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2021-03-30T00:00:00Z"
+    issue: "https://github.com/cncf/toc/pull/848" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/kuberhealthy/kuberhealthy"
+
+website: "https://github.com/kuberhealthy/kuberhealthy"
+
+artwork: "https://landscape.cncf.io/logos/kuberhealthy.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/kuberhealthy/kuberhealthy/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "kuberhealthy/kuberhealthy"
+
+social:
+  twitter: "https://twitter.com/kuberhealthy"
+
+security:
+  policy:
+    path: "https://github.com/kuberhealthy/kuberhealthy/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/kuberhealthy/kuberhealthy/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/kuberhealthy/kuberhealthy/blob/main/docs/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/kuberhealthy/kuberhealthy/blob/main/docs/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/kuberhealthy/kuberhealthy/blob/main/LICENSE"
+  identity_type:
+    has_dco: true
+    has_cla: false
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/kuberhealthy/kuberhealthy/blob/main/README.md"
+
+landscape:
+  category: "Observability and Analysis"
+  subcategory: "Observability"
+
+# CLOMonitor Score: 61/100
+# Documentation: 83 | License: 75 | Best Practices: 53 | Security: 41
