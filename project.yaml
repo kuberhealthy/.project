@@ -6,15 +6,15 @@ slug: "kuberhealthy"
 name: "Kuberhealthy"
 description: "A Kubernetes operator for running synthetic checks as pods. Works great with Prometheus!"
 type: "project"
-project_lead: "integrii" # TODO: AUTO-DETECTED — please verify
-slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+project_lead: "integrii"
+slack_channels:
   - name: "#kuberhealthy"
     primary: true
 
 maturity_log:
   - phase: "sandbox"
     date: "2021-03-30T00:00:00Z"
-    issue: "https://github.com/cncf/toc/pull/848" # TODO: AUTO-DETECTED — please verify
+    issue: "https://github.com/cncf/sandbox/issues/252"
 
 repositories:
   - "https://github.com/kuberhealthy/kuberhealthy"
