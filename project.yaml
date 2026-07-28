@@ -29,7 +29,7 @@ adopters:
 package_managers:
   docker: "kuberhealthy/kuberhealthy"
   go: "github.com/kuberhealthy/kuberhealthy/v3"
-  helm: "https://raw.githubusercontent.com/kuberhealthy/kuberhealthy-helm/main"
+  helm: "https://raw.githubusercontent.com/kuberhealthy/kuberhealthy-helm/main/index.yaml"
 
 social:
   twitter: "https://twitter.com/kuberhealthy"
