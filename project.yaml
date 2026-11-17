@@ -21,7 +21,7 @@ repositories:
 
 website: "https://github.com/kuberhealthy/kuberhealthy"
 
-artwork: "https://landscape.cncf.io/logos/kuberhealthy.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/kuberhealthy"
 
 adopters:
   path: "ADOPTERS.md"
